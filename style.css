@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+body {
+  background-image: linear-gradient(#ffffff, #ebdcff);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar {
+  background-color: #ebdcff;
+  border-radius: 40px 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-bar > h2 {
+  font-size: 35px;
+  margin-left: 100px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+a:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/* #banner-container{
+  
+} */
+#banner {
+  background-image: url(tour-mama-main/images/hero-bg.png);
+
+  /*      top    right  bottom  left */
+  /* padding: 25px  50px  75px  100px */
+
+  /*      top-bottom    right-left */
+  /* padding: 25px             50px */
+
+  margin: 100px auto 120px auto;
+  padding: 20px 30px;
+
+  width: 87.5%;
+
+  border: 2px solid #872bff10;
+  border-radius: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  width: 100%;
+}
+#pic1 {
+  width: 50%;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-content h1 {
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+.banner-content span {
+  color: #f411cf;
+}
+.banner-content p {
+  color: #a8a8a8;
+  margin-bottom: 36px;
+}
+.button button {
+  background-color: #872bff;
+  border: #872bff;
+  border-radius: 30px;
+  color: white;
+  margin: 2px;
+  padding: 16px 32px;
+  font-weight: bold;
+  font-size: 14px;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+div .b2 {
+  color: black;
+  background-color: white;
+  border: 2px solid #872bff;
+}
+
+/* Service */
+
+#service {
+  width: 87.5%;
+  margin: 0px auto 120px auto;
+}
+.head {
+  text-align: center;
+}
+.head h4 {
+  color: #f411cf;
+  margin-bottom: 15px;
+
+  font-weight: bold;
+  font-size: 24px;
+
+  letter-spacing: 5px;
+}
+.head h2 {
+  font-weight: bold;
+  font-size: 44px;
+  margin-bottom: 60px;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.Service-card {
+  max-width: 350px;
+
+  background-color: #fdffff;
+
+  border-radius: 30px;
+  text-align: center;
+
+  padding: 100px 60px;
+}
+.Service-card img {
+  width: 80px;
+
+  margin-bottom: 60px;
+}
+.Service-card h3 {
+  font-weight: 600px;
+  font-size: 28px;
+}
+.Service-card p {
+  margin-top: 30px;
+
+  color: #a8a8a8;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+/* spots */
+#spots {
+  width: 87.5%;
+  margin: 0px auto 120px auto;
+}
+
+.main-contents {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 48px 48px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.spot-scene {
+  width: 40%;
+}
+
+.description {
+  width: 60%;
+}
+.description h2,
+.description img,
+.description p {
+  margin-bottom: 30px;
+}
+.description h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #0e0e0e;
+}
+.description img {
+  width: 100px;
+}
+.description p {
+  font-weight: 500;
+  font-size: 16px;
+}
+/* country heading */
+
+#country-heading {
+  width: 87.5%;
+  margin: 0px auto 120px auto;
+}
+.conuntries {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.conuntries h3 {
+  font-weight: bold;
+  font-size: 32px;
+  padding: 40px 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-bottom: 60px;
+}
+#button-4 {
+  text-align: center;
+}
+
+/* Ratings */
+
+.main-content {
+  width: 87.5%;
+  margin: 0px auto 120px auto;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+}
+.main-content p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.main-content h5 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.reviewer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+.footer > .coryright {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.links > img {
+  width: 30px;
+  margin-left: 10px;
+}
