@@ -6,7 +6,7 @@ This project is my first responsive landing page, built using only HTML and CSS.
 🧭 Semantic HTML Structure – Clean and organized HTML for better accessibility and SEO.
 🌈 Modern Aesthetic – Clean typography, subtle transitions, and a consistent color palette.
 
-📁 Technologies Used
+📁 Technologies Used<br>
 » HTML5
 » CSS3
 » Media Queries for responsiveness
